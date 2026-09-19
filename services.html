@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed G. A. | Portfolio</title>
+    <link rel="icon" href="images/logo_icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <nav class="container">
+        <a class="logo" href="index.html">
+            <img src="images/logo.png" alt="Mohammed logo">
+        </a>
+        <button class="menu" type="button">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+            <a href="account.html">Login</a>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/" target="_blank" rel="noopener"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </nav>
+</header>
+<main>
+    <section class="page-title">
+        <div class="container">
+            <p class="small-title">WHAT I DO</p>
+            <h1>My <span>Services</span></h1>
+            <p>Simple services with simple explanations.</p>
+        </div>
+    </section>
+    <section class="services-page">
+        <div class="container">
+            <div class="service-grid">
+                <div class="service-card">
+                    <i class="fa-solid fa-pen-ruler"></i>
+                    <h3>Web Design</h3>
+                    <p>Simple and clean website interfaces.</p>
+                    <button class="btn btn-success main-btn ajax-btn" data-target="#modalOne" data-url="html/web-design.html" data-bs-toggle="modal" data-bs-target="#modalOne">Read More</button>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-rocket"></i>
+                    <h3>Fast Performance</h3>
+                    <p>Light pages with basic CSS and JavaScript.</p>
+                    <button class="btn btn-success main-btn ajax-btn" data-target="#modalTwo" data-url="html/performance.html" data-bs-toggle="modal" data-bs-target="#modalTwo">Read More</button>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Clean Code</h3>
+                    <p>Code written line by line so it is easy to explain.</p>
+                    <a class="btn btn-success main-btn" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<div class="modal fade" id="modalOne" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content custom-modal">
+            <div class="modal-header">
+                <h5 class="modal-title">Web Design</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">Loading...</div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modalTwo" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content custom-modal">
+            <div class="modal-header">
+                <h5 class="modal-title">Fast Performance</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">Loading...</div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <p>© Mohammed 2026</p>
+    </div>
+</footer>
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js"></script>
+<script src="js/ajax.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

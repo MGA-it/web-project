@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed G. A. | Portfolio</title>
+    <link rel="icon" href="images/logo_icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="home-page">
+<header>
+    <nav class="container">
+        <a class="logo" href="index.html">
+            <img src="images/logo.png" alt="Mohammed logo">
+        </a>
+        <button class="menu" type="button">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+            <a href="account.html">Login</a>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/" target="_blank" rel="noopener"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </nav>
+</header>
+<main>
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <p class="small-title">Hello, I am</p>
+                <h1><span>Mohammed G. A.</span></h1>
+                <h2>Web Designer</h2>
+                <p>I build simple, clean and responsive websites using HTML, CSS, JavaScript and Bootstrap.</p>
+                <div class="buttons">
+                    <a class="btn btn-success main-btn" href="contact.html">Contact Me</a>
+                    <a class="btn second-btn" href="images/CV.pdf" download>Download CV</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img class="person" src="images/home.png" alt="Mohammed profile">
+                <img class="hero-bg" src="images/bg_img_home.png" alt="background shape">
+            </div>
+        </div>
+    </section>
+
+    <section class="slider-section">
+        <div class="container">
+            <div class="top-section">
+                <p class="small-title">WOW SLIDER</p>
+                <h2>My <span>Gallery</span></h2>
+            </div>
+            <div id="wowslider-container1" class="wow-box">
+                <div class="ws_images">
+                    <ul>
+                        <li><img src="images/home.png" alt="Home image" title="Home" id="wows1_0"></li>
+                        <li><img src="images/about.jpg" alt="About image" title="About" id="wows1_1"></li>
+                        <li><img src="images/bg_img_home.png" alt="Design image" title="Design" id="wows1_2"></li>
+                    </ul>
+                </div>
+                <div class="ws_bullets">
+                    <div></div>
+                </div>
+                <div class="wow-control">
+                    <input class="wowbar" type="range" min="0" max="2" value="0">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="home-info">
+        <div class="container info-grid">
+            <div class="dark-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>Clean Code</h3>
+                <p>Simple HTML, CSS and JavaScript that is easy to explain.</p>
+            </div>
+            <div class="dark-card">
+                <i class="fa-solid fa-mobile-screen"></i>
+                <h3>Responsive</h3>
+                <p>The layout changes for mobile, tablet and desktop screens.</p>
+            </div>
+            <div class="dark-card">
+                <i class="fa-solid fa-layer-group"></i>
+                <h3>Bootstrap</h3>
+                <p>Bootstrap is used simply for buttons and modals.</p>
+            </div>
+        </div>
+    </section>
+</main>
+<div id="welcome-fallback" class="toast-fallback">Welcome to my portfolio!</div>
+<footer>
+    <div class="container">
+        <p>© Mohammed 2026</p>
+    </div>
+</footer>
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js"></script>
+<script src="js/wowslider-simple.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
